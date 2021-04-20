@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">A4-CS349</string>
+    <string name="title_home">Recognition</string>
+    <string name="title_library">Library</string>
+    <string name="title_addition">Addition</string>
+    <string name="redraw">Redraw</string>
+    <string name="save">Save</string>
+    <string name="drawing_name">Drawing Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="sp_name">drawing list</string>
+    <string name="clear">Clear</string>
+    <string name="title_activity_redraw">activity_redraw</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

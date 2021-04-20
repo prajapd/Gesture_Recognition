@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout_display_drawing"
+    android:background="?android:windowBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:id="@+id/relative_layout_display_drawing">
+    <ca.uwaterloo.cs349.DisplayDrawing
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/display_drawing"/>
+
+    <TextView
+        android:id="@+id/draw_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty"
+        android:layout_toRightOf="@id/display_drawing"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/replace_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="180dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/display_drawing"
+        android:background="@mipmap/ic_refresh_foreground" />
+
+    <Button
+        android:id="@+id/delete_row_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/replace_icon"
+        android:background="@android:drawable/ic_delete"
+        />
+
+</RelativeLayout>
+    </LinearLayout>

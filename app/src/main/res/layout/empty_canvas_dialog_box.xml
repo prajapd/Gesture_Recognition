@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="#D81313"
+        android:paddingTop="5dp"
+        android:paddingLeft="28dp"
+        android:scaleType="center"
+        android:text="Empty Drawing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingTop="5dp"
+        android:scaleType="center"
+        android:text="Cannot save empty canvas, please add gesture and try again" />
+
+</LinearLayout>
