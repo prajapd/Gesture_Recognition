@@ -12,9 +12,6 @@ To see their drawings in a list the user can navigate to the library tab, where 
 Upon exiting the application all drawings will be saved and visible on launch
 
 <h2> Sources </h2>
-
-<p> The template code provided by the CS 349 class was used.
-
 image source: https://icons8.com/icons/set/replace <-- replace icon 
 image source: the delete icon was taken from the android:drawable space. 
 </p>  
